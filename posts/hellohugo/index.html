@@ -17,9 +17,9 @@
     <meta http-equiv="Cache-Control" content="no-siteapp" />
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
-<link rel="stylesheet" href="/css/remixicon/remixicon.css"><link rel="stylesheet" href="/css/kenny.min.387dae7f32fdcc8a3e04559065e2e9a0d8cf27688e6e8247aea08fde897825ed.css" integrity="sha256-OH2ufzL9zIo+BFWQZeLpoNjPJ2iOboJHrqCP3ol4Je0="/>
+<link rel="stylesheet" href="/css/remixicon/remixicon.css"><link rel="stylesheet" href="/css/kenny.min.b5f15fa757d4945d156d81dbbbba9b83495efb7be85aaf9c0d37c41f2c822fcf.css" integrity="sha256-tfFfp1fUlF0VbYHbu7qbg0le+3voWq+cDTfEHyyCL88="/>
 
-    <link rel="shortcut icon" href="https://knlde.s3.ladydaily.com/avatar.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://jsd.cdn.zzko.cn/gh/Kindle-deep/CDN-File@main/avatar.png" type="image/x-icon" />
     <title>Hello,hugo</title>
 
     <meta name="author" content="Chinyuan Tai" /><meta name="description" content="Welcome to KnldeのBlog" />
@@ -41,6 +41,59 @@
     
     <link rel="stylesheet" href="/css/kenny.css">
 
+    
+    <script>
+    (function() {
+  'use strict';
+
+  if(!document.queryCommandSupported('copy')) {
+    return;
+  }
+
+  function flashCopyMessage(el, msg) {
+    el.textContent = msg;
+    setTimeout(function() {
+      el.textContent = "Copy";
+    }, 1000);
+  }
+
+  function selectText(node) {
+    var selection = window.getSelection();
+    var range = document.createRange();
+    range.selectNodeContents(node);
+    selection.removeAllRanges();
+    selection.addRange(range);
+    return selection;
+  }
+
+  function addCopyButton(containerEl) {
+    var copyBtn = document.createElement("button");
+    copyBtn.className = "highlight-copy-btn";
+    copyBtn.textContent = "Copy";
+
+    var codeEl = containerEl.firstElementChild;
+    copyBtn.addEventListener('click', function() {
+      try {
+        var selection = selectText(codeEl);
+        document.execCommand('copy');
+        selection.removeAllRanges();
+
+        flashCopyMessage(copyBtn, 'Copied!')
+      } catch(e) {
+        console && console.log(e);
+        flashCopyMessage(copyBtn, 'Failed :\'(')
+      }
+    });
+
+    containerEl.appendChild(copyBtn);
+  }
+
+  
+  var highlightBlocks = document.getElementsByClassName('highlight');
+  Array.prototype.forEach.call(highlightBlocks, addCopyButton);
+})();
+</script>
+
 </head>
 
 
@@ -48,8 +101,19 @@
 
     <div class="header-div1">
         <a href="https://www.knde.top/" style="display:inline-block;">
-            <img src="https://knlde.s3.ladydaily.com/avatar.png">
+            <img src="https://jsd.cdn.zzko.cn/gh/Kindle-deep/CDN-File@main/avatar.png">
         </a>
+            <a id="search-btn" style="display: inline-block;" href="javascript:void(0);">
+    <span class="icon-search"><i class="ri-search-line"></i></span>
+</a>
+
+<div id="fastSearch">
+    <input id="searchInput" tabindex="0">
+    <ul id="searchResults">
+    </ul>
+</div>
+<script src="/js/fuse.min.js"></script> 
+<script src="/js/fastsearch.js"></script>
     </div>
     <div class="header-div2">
     <a href="/"><button class="btn btn-light">Home</button></a>
@@ -147,6 +211,25 @@
 </code></pre>
                     </div>
                     
+                        
+                            <div class="social-share" data-initialized="true" data-wechat-qrcode-title="扫一扫分享到微信">
+    <center>
+    <font style="font-size:10px;;">分享到：</font>
+    <a href=" " class="social-share-icon icon-weibo"></a >
+    <a href="#" class="social-share-icon icon-wechat"></a >
+    <a href="#" class="social-share-icon icon-twitter"></a >
+    <a href="#" class="social-share-icon icon-linkedin"></a >
+    <a href="#" class="social-share-icon icon-facebook"></a >
+    <a href="#" class="social-share-icon icon-qq"></a >
+    <a href="#" class="social-share-icon icon-qzone"></a >
+    </center>
+</div>
+
+
+<link rel="stylesheet" href="https://www.knde.top/theme-cdn/sharejs/css/share.min.css" />
+<script src="/theme-cdn/sharejs/js/social-share.min.js"></script>
+
+                        
                     
     	
 
@@ -183,6 +266,7 @@
     </div>
 </div>
 
+
         
     </body>
     <div>
@@ -207,7 +291,7 @@
         </p>
                 
                     <div id="ICP"></div>
-                    <a href="https://beian.miit.gov.cn/" title="备案号">晋1111111111</a>
+                    <a href="https://beian.miit.gov.cn/" title="备案号"></a>
 
     </div>
 </div>

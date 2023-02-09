@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello,hugo on KnldeのBlog</title>
+    <link>https://www.knde.top/posts/hellohugo/</link>
+    <description>Recent content in Hello,hugo on KnldeのBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>chinyuan@knlde.top (Chinyuan Tai)</managingEditor>
+    <webMaster>chinyuan@knlde.top (Chinyuan Tai)</webMaster>
+    <lastBuildDate>Mon, 06 Feb 2023 22:26:57 +0800</lastBuildDate><atom:link href="https://www.knde.top/posts/hellohugo/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
