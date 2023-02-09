@@ -8,29 +8,29 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>KnldeのBlog</title>
-        <link>https://www.knde.top/</link>
+        <link>https://blog.knlde.cn/</link>
         <description>Welcome to KnldeのBlog</description>
         <generator>Hugo 0.109.0 https://gohugo.io/</generator>
         
             <language>en</language>
         
         
-            <managingEditor>chinyuan@knlde.top (Chinyuan Tai)</managingEditor>
+            <managingEditor>chinyuan@knlde.cn (Chinyuan Tai)</managingEditor>
         
         
-            <webMaster>chinyuan@knlde.top (Chinyuan Tai)</webMaster>
+            <webMaster>chinyuan@knlde.cn (Chinyuan Tai)</webMaster>
         
         
-        <lastBuildDate>Thu, 09 Feb 2023 15:20:36 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 09 Feb 2023 19:18:04 +0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss+xml" href="https://www.knde.top/rss.xml" />
+            <atom:link rel="self" type="application/rss+xml" href="https://blog.knlde.cn/rss.xml" />
         
         
             
                 <item>
                     <title>Hello,hugo</title>
-                    <link>https://www.knde.top/posts/hellohugo/</link>
-                    <guid isPermaLink="true">https://www.knde.top/posts/hellohugo/</guid>
+                    <link>https://blog.knlde.cn/posts/hellohugo/</link>
+                    <guid isPermaLink="true">https://blog.knlde.cn/posts/hellohugo/</guid>
                     <pubDate>Mon, 06 Feb 2023 22:26:57 +0800</pubDate>
                     <description><![CDATA[<h2 id="转到hugo啦">转到hugo啦</h2>
 <p>因为hugo的快速，和喜欢这个主题的简洁大方，所以转hugo了，现在原主题已经停更，准备二开更新维护啦！

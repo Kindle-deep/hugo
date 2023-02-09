@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on KnldeのBlog</title>
-    <link>https://www.knde.top/about/</link>
+    <link>https://blog.knlde.cn/about/</link>
     <description>Recent content in About on KnldeのBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>chinyuan@knlde.top (Chinyuan Tai)</managingEditor>
-    <webMaster>chinyuan@knlde.top (Chinyuan Tai)</webMaster>
-    <lastBuildDate>Mon, 06 Feb 2023 19:56:12 +0800</lastBuildDate><atom:link href="https://www.knde.top/about/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>chinyuan@knlde.cn (Chinyuan Tai)</managingEditor>
+    <webMaster>chinyuan@knlde.cn (Chinyuan Tai)</webMaster>
+    <lastBuildDate>Mon, 06 Feb 2023 19:56:12 +0800</lastBuildDate><atom:link href="https://blog.knlde.cn/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
