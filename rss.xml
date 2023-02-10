@@ -10,7 +10,7 @@
         <title>KnldeのBlog</title>
         <link>https://blog.knlde.cn/</link>
         <description>Welcome to KnldeのBlog</description>
-        <generator>Hugo 0.109.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.110.0 https://gohugo.io/</generator>
         
             <language>en</language>
         
@@ -21,7 +21,7 @@
             <webMaster>chinyuan@knlde.cn (Chinyuan Tai)</webMaster>
         
         
-        <lastBuildDate>Thu, 09 Feb 2023 19:18:04 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 10 Feb 2023 12:23:27 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://blog.knlde.cn/rss.xml" />
         
