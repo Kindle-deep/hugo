@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">KnldeのBlog</title>
     <subtitle type="html">Welcome to KnldeのBlog</subtitle>
-    <updated>2023-02-10T12:23:27+08:00</updated>
+    <updated>2023-02-10T13:00:24+08:00</updated>
     <id>https://blog.knlde.cn/</id>
     <link rel="alternate" type="text/html" href="https://blog.knlde.cn/" />
     <link rel="self" type="application/atom+xml" href="https://blog.knlde.cn/atom.xml" />
@@ -15,6 +15,50 @@
                 <email>chinyuan@knlde.cn</email>
             </author>
     <generator uri="https://gohugo.io/" version="0.110.0">Hugo</generator>
+        
+            
+            <entry>
+                <title type="text">友链申请</title>
+                <link rel="alternate" type="text/html" href="https://blog.knlde.cn/posts/add-links/" />
+                <id>https://blog.knlde.cn/posts/add-links/</id>
+                <updated>2023-02-10T12:31:53+08:00</updated>
+                <published>2023-02-10T12:31:53+08:00</published><summary type="html"><![CDATA[%!s(<nil>)]]></summary>
+                
+                
+                
+                
+                
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category scheme="https://blog.knlde.cn/categories/link/" term="link" label="link" />
+                                
+                           
+                                
+                                
+                                
+                                    <category scheme="https://blog.knlde.cn/categories/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/" term="友情链接" label="友情链接" />
+                                
+                           
+                        
+                    
+                        
+                            
+                                
+                                
+                                
+                                    <category scheme="https://blog.knlde.cn/tags/link/" term="link" label="link" />
+                                
+                           
+                        
+                    
+                
+            </entry>
+        
+    
         
             
             <entry>

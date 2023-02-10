@@ -21,10 +21,74 @@
             <webMaster>chinyuan@knlde.cn (Chinyuan Tai)</webMaster>
         
         
-        <lastBuildDate>Fri, 10 Feb 2023 12:23:27 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 10 Feb 2023 13:00:24 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://blog.knlde.cn/rss.xml" />
         
+        
+            
+                <item>
+                    <title>友链申请</title>
+                    <link>https://blog.knlde.cn/posts/add-links/</link>
+                    <guid isPermaLink="true">https://blog.knlde.cn/posts/add-links/</guid>
+                    <pubDate>Fri, 10 Feb 2023 12:31:53 +0800</pubDate>
+                    <description><![CDATA[<h2 id="要求">要求</h2>
+<ul>
+<li>拥有自己的域名,非<code>vercel.app</code>,<code>netlify.app</code>,<code>github.io</code>,<code>gitee.io</code>等二级域名</li>
+<li>网站支持https协议</li>
+<li>能够正常访问</li>
+<li>含本站链接</li>
+</ul>
+<h2 id="如何申请">如何申请</h2>
+<p>在此页面评论区评论，或发邮件到<code>daijinyuan2009@gmail.com</code></p>
+<h2 id="我的信息">我的信息</h2>
+<ul>
+<li>Name: Chinyuan Tai</li>
+<li>link: <a href="https://blog.knlde.cn">https://blog.knlde.cn</a></li>
+<li>image: <a href="https://knlde.s3.ladydaily.com/avatar.png">https://knlde.s3.ladydaily.com/avatar.png</a></li>
+<li>bio: 开源改变世界</li>
+</ul>
+<h2 id="友链申请格式">友链申请格式</h2>
+<pre tabindex="0"><code>[[links]]
+    name = &#34;&#34;
+    image = &#34;&#34;
+    link = &#34;&#34;
+    bio = &#34;&#34;
+</code></pre>]]></description>
+                    
+                        
+                    
+                    
+                        
+                            
+                                
+                                    
+                                    
+                                    
+                                        <category domain="https://blog.knlde.cn/categories/link/">link</category>
+                                    
+                                
+                                    
+                                    
+                                    
+                                        <category domain="https://blog.knlde.cn/categories/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/">友情链接</category>
+                                    
+                                
+                            
+                        
+                            
+                                
+                                    
+                                    
+                                    
+                                        <category domain="https://blog.knlde.cn/tags/link/">link</category>
+                                    
+                                
+                            
+                        
+                    
+                </item>
+            
         
             
                 <item>
