@@ -202,23 +202,25 @@
             
 
             
+                <div id="Comments"></div>
+                <link href="/theme-cdn/comments/Artalk/Artalk.css" rel="stylesheet">
+<script src="/theme-cdn/comments/Artalk/Artalk.js"></script>
 
-            
-                <div id="tcomment"></div>
-                
-<div id="tcomment"></div>
 
-<script src="/theme-cdn/comments/Twikoo/twikoo.all.min.js"></script>
+<div id="Comments"></div>
 
 <script>
-  twikoo.init({
-  envId: 'https:\/\/twikoo.knlde.cn',
-  el: '#tcomment', 
-  region: '', 
-  
-  
+  new Artalk({
+    el: '#Comments',
+    pageKey: 'https:\/\/blog.knlde.cn\/posts\/hellohugo\/',
+    pageTitle: 'Hello,hugo',
+    ArtalkServer: 'https:\/\/artalk.knlde.cn',
+    ArtalkSite: 'KnldeのBlog',
+    
   })
 </script>
+
+            
 
             
 
