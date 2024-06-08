@@ -13,7 +13,7 @@
 # website title
 title = "Chinyuan Tai"
 # Hostname (and path) to the root
-baseURL = "http://localhost:1313"
+baseURL = "https://www.knlde.top"
 # theme list
 # theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -27,7 +27,7 @@ hasCJKLanguage = false
 # default amount of posts in each pages
 paginate = 12
 # copyright description used only for seo schema
-copyright = "Express myself."
+copyright = "Expression self."
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
