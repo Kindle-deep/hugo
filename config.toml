@@ -969,12 +969,12 @@ theme = "FixIt"
       Mix = false
     # FixIt 0.2.15 | CHANGED Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false
-        server = "http://artalk.knlde.top"
-        site = "Chinyuan Tai"
+        server = ""
+        site = ""
         # FixIt 0.3.3 | NEW whether use backend configuration
         useBackendConf = false
         placeholder = ""
@@ -1088,7 +1088,7 @@ theme = "FixIt"
         visitor = true
         commentCount = true
         # FixIt 0.2.17 | CHANGED enable lightgallery support
-        lightgallery = false
+        lightgallery = true
         # FixIt 0.2.17 | NEW enable Katex support
         katex = false
       # FixIt 0.2.14 | NEW Giscus comments config
