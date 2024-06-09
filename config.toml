@@ -720,7 +720,7 @@ theme = "FixIt"
     # CDN data file name, disabled by default ["jsdelivr.yml", "unpkg.yml", ...]
     # located in "themes/FixIt/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project: "assets/data/cdn/"
-    data = ""
+    data = "jsdelivr.yml"
 
   # Compatibility config
   [params.compatibility]
@@ -969,7 +969,7 @@ theme = "FixIt"
       Mix = false
     # FixIt 0.2.15 | CHANGED Comment config
     [params.page.comment]
-      enable = false
+      enable = true
       # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false
@@ -1081,8 +1081,8 @@ theme = "FixIt"
         darkTheme = "github-dark"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
-        enable = false
-        envId = ""
+        enable = true
+        envId = "https://twikoo.knlde.top"
         region = ""
         path = ""
         visitor = true
