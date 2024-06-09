@@ -15,7 +15,7 @@ title = "Chinyuan Tai"
 # Hostname (and path) to the root
 baseURL = "https://www.knlde.top"
 # theme list
-# theme = ["FixIt"] # enable in your site config file
+theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "zh-cn"
 # language code ["en", "zh-CN", "fr", "pl", ...]
@@ -34,7 +34,6 @@ enableRobotsTXT = true
 enableGitInfo = false
 # whether to use emoji code
 enableEmoji = true
-theme = "FixIt"
 
 # -------------------------------------------------------------------------------------
 # Menu Configuration
@@ -1082,7 +1081,7 @@ theme = "FixIt"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = true
-        envId = "https://twikoo.knlde.cn"
+        envId = "https://twikoo.knlde.top"
         region = ""
         path = ""
         visitor = true
