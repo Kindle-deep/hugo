@@ -720,7 +720,7 @@ theme = "FixIt"
     # CDN data file name, disabled by default ["jsdelivr.yml", "unpkg.yml", ...]
     # located in "themes/FixIt/assets/data/cdn/" directory
     # you can store your own data files in the same path under your project: "assets/data/cdn/"
-    data = "jsdelivr.yml"
+    data = ""
 
   # Compatibility config
   [params.compatibility]
@@ -969,7 +969,7 @@ theme = "FixIt"
       Mix = false
     # FixIt 0.2.15 | CHANGED Comment config
     [params.page.comment]
-      enable = true
+      enable = false
       # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
         enable = false
@@ -1082,13 +1082,13 @@ theme = "FixIt"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = false
-        envId = "https://twikoo.knlde.top"
+        envId = ""
         region = ""
         path = ""
         visitor = true
         commentCount = true
         # FixIt 0.2.17 | CHANGED enable lightgallery support
-        lightgallery = true
+        lightgallery = false
         # FixIt 0.2.17 | NEW enable Katex support
         katex = false
       # FixIt 0.2.14 | NEW Giscus comments config
