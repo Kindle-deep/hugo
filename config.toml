@@ -1081,7 +1081,7 @@ theme = "FixIt"
         darkTheme = "github-dark"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
-        enable = true
+        enable = false
         envId = "https://twikoo.knlde.top"
         region = ""
         path = ""
