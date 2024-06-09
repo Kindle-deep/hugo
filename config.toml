@@ -1081,7 +1081,7 @@ enableEmoji = true
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = true
-        envId = "https://twikoo.knlde.top"
+        envId = "https://twikoo.knlde.cn"
         region = ""
         path = ""
         visitor = true
