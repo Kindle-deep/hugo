@@ -6,7 +6,7 @@ draft: false
 <div class="flink" id="article-container">
 <div class="friend-list-div" >
 
-{{< friend name="葱苓sama" url="https://blog.ciraos.top" logo="https://img01.anheyu.com/useruploads/222/2023/10/16/652cbfc482491.jpg" word="Don't worry, Be happy." >}}
+{{< friend name="葱苓sama" url="https://blog.ciraos.top" logo="https://cdn.jsdmirror.com/gh/ciraos/ciraos-static@main/img/avatar1.webp" word="Don't worry, Be happy." >}}
 </div>
 </div>
 

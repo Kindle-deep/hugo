@@ -3,7 +3,7 @@
 &lt;div class=&#34;flink&#34; id=&#34;article-container&#34;&gt;
 &lt;div class=&#34;friend-list-div&#34; &gt;
 
-{{&lt; friend name=&#34;葱苓sama&#34; url=&#34;https://blog.ciraos.top&#34; logo=&#34;https://img01.anheyu.com/useruploads/222/2023/10/16/652cbfc482491.jpg&#34; word=&#34;Don&#39;t worry, Be happy.&#34; &gt;}}
+{{&lt; friend name=&#34;葱苓sama&#34; url=&#34;https://blog.ciraos.top&#34; logo=&#34;https://cdn.jsdmirror.com/gh/ciraos/ciraos-static@main/img/avatar1.webp&#34; word=&#34;Don&#39;t worry, Be happy.&#34; &gt;}}
 &lt;/div&gt;
 &lt;/div&gt;
 
