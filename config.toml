@@ -1020,9 +1020,9 @@ enableEmoji = true
       enable = true
       # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
       [params.page.comment.artalk]
-        enable = false
-        server = ""
-        site = ""
+        enable = true
+        server = "https://artalk.knlde.top"
+        site = "ChinyuanTai"
         # FixIt 0.3.3 | NEW whether use backend configuration
         useBackendConf = false
         placeholder = ""
@@ -1129,7 +1129,7 @@ enableEmoji = true
         darkTheme = "github-dark"
       # FixIt 0.2.13 | NEW Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
-        enable = true
+        enable = false
         envId = "https://twikoo.knlde.top"
         region = ""
         path = ""
